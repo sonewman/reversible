@@ -1,0 +1,27 @@
+{
+  "name": "reversible",
+  "version": "0.0.0",
+  "description": "Duplex stream which buffer contents on src stream until it is done, then pipes them back out in reverse order",
+  "main": "index.js",
+  "scripts": {
+    "test": "./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sonewman/reversible.git"
+  },
+  "keywords": [
+    "reverse",
+    "stream"
+  ],
+  "author": "Sam Newman",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/sonewman/reversible/issues"
+  },
+  "homepage": "https://github.com/sonewman/reversible",
+  "devDependencies": {
+    "tap": "~0.4.6"
+  },
+  "engine": ">=0.10.0"
+}

@@ -40,8 +40,11 @@ test('Pipe string data', function (t) {
 test('Pipe object data', function (t) {
 
   var values = [
-      { thing: 'one' }, { thing: 'two' }, {thing: 'three' }
-      , {thing: 'four' }, { thing: 'five' }
+      { no: 'one' }
+      , { no: 'two' }
+      , { no: 'three' }
+      , { no: 'four' }
+      , { no: 'five' }
     ]
     , readIndex = 0
     , writeIndex = 0
